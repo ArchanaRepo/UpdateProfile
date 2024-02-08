@@ -12,6 +12,7 @@ using SeleniumExtras.PageObjects;
 using System.Threading;
 using OpenQA.Selenium.Interactions;
 using static System.Net.Mime.MediaTypeNames;
+using log4net;
 
 
 namespace NaukriUpdate.Pages
@@ -20,8 +21,10 @@ namespace NaukriUpdate.Pages
     public class NaukriLoginPage : BasePage
     {
         public IWebDriver driver;
+        private static readonly ILog log = LogManager.GetLogger(typeof(NaukriLoginPage));
 
-        By UserName = By.Id("usernameField");
+
+       By UserName = By.Id("usernameField");
         By Password = By.Id("passwordField");
         By LoginButton = By.XPath("//button[text()='Login']");
         By ProfileLink = By.XPath("//div[@class='view-profile-wrapper']//a[@href='/mnjuser/profile']");
@@ -37,16 +40,30 @@ namespace NaukriUpdate.Pages
 
         public void LaunchURL()
         {
+
+           // ChromeOptions option= new ChromeOptions();
+            log.Info("initialized ChromeOption");
+           // option.AddArgument("--headless");
+            log.Info("Added headless option");
             driver=new ChromeDriver();
+            log.Info("create new driver reference");
             driver.Navigate().GoToUrl("https://www.naukri.com/mnjuser/homepage");
+
+            log.Info("Open URL");
             driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitWait=TimeSpan.FromSeconds(5);
-            Thread.Sleep(1000);
+            log.Info("Maximize browser");
+            driver.Manage().Timeouts().ImplicitWait=TimeSpan.FromSeconds(10);
+            log.Info("Added implicit wait");
+            Thread.Sleep(5000);
+            log.Info("added thread sleep");
 
 
         }
         public void LoginInPortal(string username,string password)
         {
+            Thread.Sleep(10000);
+            log.Info($"{username}:{password}");
+
             driver.FindElement(UserName).SendKeys(username);
             driver.FindElement(Password).SendKeys(password);
             driver.FindElement(LoginButton).Click();    
