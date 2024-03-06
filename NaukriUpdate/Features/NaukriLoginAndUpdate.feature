@@ -49,9 +49,11 @@ And I close the browser
 
 Examples: 
 | UserName                     | Password  | FullName                        |
-| archana.bangar2018@gmail.com | 123Shubh# | Archana B Short Notice Period.  |
-| archana.bangar2018@gmail.com | 123Shubh# | Archana Bangar Short Notice.    |
-| archana.bangar2018@gmail.com | 123Shubh# | Archana B Avbl on Short Notice. |
+| archana.bangar2018@gmail.com | 123Shubh# | Archana B Avbl Immediately       |
+| archana.bangar2018@gmail.com | 123Shubh# | Archana Bangar Short Notice     |
+| archana.bangar2018@gmail.com | 123Shubh# | Archana B Available Immediately |
+| archana.bangar2018@gmail.com | 123Shubh# | Archana B can join Immediately |
+| archana.bangar2018@gmail.com | 123Shubh# | Archana Available Immediately |
 
 
 @ignore

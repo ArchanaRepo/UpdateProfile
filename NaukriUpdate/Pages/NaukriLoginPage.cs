@@ -61,7 +61,7 @@ namespace NaukriUpdate.Pages
         }
         public void LoginInPortal(string username,string password)
         {
-            Thread.Sleep(10000);
+            Thread.Sleep(5000);
             log.Info($"{username}:{password}");
 
             driver.FindElement(UserName).SendKeys(username);
