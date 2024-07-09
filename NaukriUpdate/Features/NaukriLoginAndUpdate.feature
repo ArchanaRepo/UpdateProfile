@@ -14,9 +14,9 @@ And I close the browser
 
 Examples: 
 | UserName                     | Password  | ResumeHeadline                                                                                                                                                                                                                                    |
-| archana.bangar2018@gmail.com | 123Shubh# | Java, C# Selenium Webdriver Automation Tester,Functional-Web Service Testing,SpecFlow,Accessibility Testing,API Testing,SQL,BDD,KDF,Cucumber,RESTAssure,Agile Scrum,Functional Testing,People Mangmnt,Defect tracking, JIRA,TestNG,HPALM,JUnit.   |
-| archana.bangar2018@gmail.com | 123Shubh# | Java, C# Selenium Webdriver Automation Tester,Functional-Web Service Testing,SpecFlow,Accessibility Testing,API Testing,SQL,BDD,KDF,Cucumber,RESTAssure,Agile Scrum,Functional Testing,People Mangmnt,Defect tracking, JIRA,TestNG,HPALM,JUnit..  |
-| archana.bangar2018@gmail.com | 123Shubh# | Java, C# Selenium Webdriver Automation Tester,Functional-Web Service Testing,SpecFlow,Accessibility Testing,API Testing,SQL,BDD,KDF,Cucumber,RESTAssure,Agile Scrum,Functional Testing,People Mangmnt,Defect tracking, JIRA,TestNG,HPALM,JUnit... |
+| archana.bangar2018@gmail.com | abcd123 | Java, C# Selenium Webdriver Automation Tester,Functional-Web Service Testing,SpecFlow,Accessibility Testing,API Testing,SQL,BDD,KDF,Cucumber,RESTAssure,Agile Scrum,Functional Testing,People Mangmnt,Defect tracking, JIRA,TestNG,HPALM,JUnit.   |
+| archana.bangar2018@gmail.com | abcd123 | Java, C# Selenium Webdriver Automation Tester,Functional-Web Service Testing,SpecFlow,Accessibility Testing,API Testing,SQL,BDD,KDF,Cucumber,RESTAssure,Agile Scrum,Functional Testing,People Mangmnt,Defect tracking, JIRA,TestNG,HPALM,JUnit..  |
+| archana.bangar2018@gmail.com | abcd123 | Java, C# Selenium Webdriver Automation Tester,Functional-Web Service Testing,SpecFlow,Accessibility Testing,API Testing,SQL,BDD,KDF,Cucumber,RESTAssure,Agile Scrum,Functional Testing,People Mangmnt,Defect tracking, JIRA,TestNG,HPALM,JUnit... |
 
 @ignore
 Scenario Outline: Verify User can update Resume Heading details in naukri profile_Shubham
@@ -31,9 +31,9 @@ And I close the browser
 
 Examples: 
 | UserName                     | Password  | ResumeHeadline                                                                                                                                                                                                                                    |
-| shubhamgagile@gmail.com      | 123Shubh@ | 14 yrs in Agile Program and Delivery,People Management,stakeholder management,Delivery Management, key metrics, budget,Risk, communication management, Delivery Leadership,Escalation Managmnt,Quality Management,CSM,PMP,PRINCE2certified        |
-| shubhamgagile@gmail.com      | 123Shubh@ | 14 yrs in Agile Program and Delivery,People Management,stakeholder management,Delivery Management, key metrics, budget,Risk, communication management, Delivery Leadership,Escalation Managmnt,Quality Management,CSM,PMP,PRINCE2certified.       |
-| shubhamgagile@gmail.com      | 123Shubh@ | 14 yrs in Agile Program and Delivery,People Management,stakeholder management,Delivery Management, key metrics, budget,Risk, communication management, Delivery Leadership,Escalation Managmnt,Quality Management,CSM,PMP,PRINCE2certified..      |
+| shubhamgagile@gmail.com      | abcd123 | 14 yrs in Agile Program and Delivery,People Management,stakeholder management,Delivery Management, key metrics, budget,Risk, communication management, Delivery Leadership,Escalation Managmnt,Quality Management,CSM,PMP,PRINCE2certified        |
+| shubhamgagile@gmail.com      | abcd123 | 14 yrs in Agile Program and Delivery,People Management,stakeholder management,Delivery Management, key metrics, budget,Risk, communication management, Delivery Leadership,Escalation Managmnt,Quality Management,CSM,PMP,PRINCE2certified.       |
+| shubhamgagile@gmail.com      | abcd123 | 14 yrs in Agile Program and Delivery,People Management,stakeholder management,Delivery Management, key metrics, budget,Risk, communication management, Delivery Leadership,Escalation Managmnt,Quality Management,CSM,PMP,PRINCE2certified..      |
 
 
 Scenario Outline: Verify User can update User Name details in naukri profile_Archana
@@ -49,9 +49,9 @@ And I close the browser
 
 Examples: 
 | UserName                     | Password  | FullName                        |
-| archana.bangar2018@gmail.com | 123Shubh# | Archana B Short Notice Period.  |
-| archana.bangar2018@gmail.com | 123Shubh# | Archana Bangar Short Notice.    |
-| archana.bangar2018@gmail.com | 123Shubh# | Archana B Avbl on Short Notice. |
+| archana.bangar2018@gmail.com | abcd123 | Archana B Short Notice Period.  |
+| archana.bangar2018@gmail.com | abcd123 | Archana Bangar Short Notice.    |
+| archana.bangar2018@gmail.com | abcd123 | Archana B Avbl on Short Notice. |
 
 
 @ignore
@@ -69,7 +69,7 @@ And I close the browser
 
 Examples: 
 | UserName                     | Password  | FullName                        |
-| shubhamgagile@gmail.com      | 123Shubh@ | Shubham Guptaa                  |
-| shubhamgagile@gmail.com      | 123Shubh@ | Shubham Gupta                   |
+| shubhamgagile@gmail.com      | abcd123 | Shubham Guptaa                  |
+| shubhamgagile@gmail.com      | abcd123 | Shubham Gupta                   |
 
 
